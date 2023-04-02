@@ -7,3 +7,4 @@ capitals = {
 
 for country in countries:
     print(country + ': ' + capitals[country])
+
