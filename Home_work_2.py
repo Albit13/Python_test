@@ -1,9 +1,2 @@
-countries = ['Ukraine', 'Spain', 'Italy']
-capitals = {
-    'Ukraine': 'Kyiv',
-    'Spain': 'Madrid',
-    'Italy': 'Rome'
-}
+cats = ['Kraken', 'Badger', 'Sarbona']
 
-for country in countries:
-    print(country + ': ' + capitals[country])
