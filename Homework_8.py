@@ -12,10 +12,10 @@ else:
         dmnd = '*' * i
         if i > min_width:
             dmnd = '*' + ' '*(i-2) + '*'
-        print(dmnd.center(max_width, ' '))
+        print(dmnd.center(max_width, ' ').rstrip())
         if i == max_width:
             for j in range(max_width-2, min_width-1, -2):
                 dmnd = '*' * j
                 if j > min_width:
                     dmnd = '*' + ' '*(j-2) + '*'
-                print(dmnd.center(max_width, ' '))
+                print(dmnd.center(max_width, ' ').rstrip())
