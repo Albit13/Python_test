@@ -12,3 +12,11 @@ if is_valid_email(email):
     print("Email is valid")
 else:
     print("Email is not valid")
+
+
+# aaa@bbb.ccc
+# aaa@bbb@ccc.com
+# aaa.bbb@ccc.com
+# @bbb.ccc
+# aaa@bbb.ccc.
+# aa.a@bbbccc
